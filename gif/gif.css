@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+/* Dark mode */
+body.dark-mode {
+    /* Muda a cor de fundo para escuro */
+    background-color: #121212;
+    /* Muda a cor do texto para claro */
+    color: white;
+}
+
+#toggle-btn {
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+    z-index: 999;
+
+}
+  /* Estilos para a barra de navegação */
+        .navbar {
+          
+            color: white;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
